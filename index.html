@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de CPF</h1>
+
+        <!-- Opção de carregar arquivo -->
+        <input type="file" id="fileInput" accept=".txt">
+        <br>
+
+        <!-- Opção de digitar CPF -->
+        <input type="text" id="cpfInput" placeholder="Digite o CPF">
+        <br>
+
+        <button onclick="validateInput()">Validar</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
